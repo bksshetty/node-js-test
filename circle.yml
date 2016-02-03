@@ -1,5 +1,15 @@
+machine:
+  node:
+    version: 0.10.22
+dependencies:
+  override:
+    - npm install --dev
+test:
+  post:
+    - ./test.sh
 deployment:
   push_to_server:
     branch: master
     commands:
       - rsync -avz /home/ubuntu/node-js-test circleci@54.194.98.52:/home/circleci
+
