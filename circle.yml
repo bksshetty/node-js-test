@@ -9,4 +9,4 @@ deployment:
     branch: master
     commands:
       - rsync -avz /home/ubuntu/node-js-test circleci@54.194.98.52:/home/circleci
-
+      - ./test1.sh
