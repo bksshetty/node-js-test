@@ -1,4 +1,2 @@
 #!/bin/bash
-ssh circleci@54.194.98.52
-cd /home/circleci
-mkdir ssdfjhsk
+ssh -i /home/circleci circleci@54.194.98.52 "npm install && npm start"

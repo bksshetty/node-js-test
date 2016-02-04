@@ -1,0 +1,9 @@
+{
+  "name": "express-downloads-example",
+  "version": "0.0.1",
+  "description": "A sample code project demonstrating downloading files using express",
+  "dependencies": {
+  	"express": "*"
+   },
+  "engine": "node 0.6.x"
+}
