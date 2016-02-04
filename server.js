@@ -1,7 +1,8 @@
 // http://expressjs.com/api.html#res.download
 var express = require('express')
   , app = module.exports = express();
- 
+
+console.log(process.env['NODE_ENV'])
 app.get('/', function(req, res){
   res.send('<ul>'
     + '<p>test circle ci</li>'
