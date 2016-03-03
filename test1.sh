@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh -i /home/circleci circleci@54.194.98.52 "./start-node.sh"
+ssh -i /home/circleci circleci@54.194.205.134 "./start-node.sh"
